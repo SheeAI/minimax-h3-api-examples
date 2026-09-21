@@ -1,0 +1,36 @@
+{
+  "name": "vgenv",
+  "version": "0.1.0",
+  "description": "Official Node.js client for the vgenv AI video generation API — MiniMax H3 videos, billed per output second.",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "vgenv",
+    "minimax-h3",
+    "video-generation",
+    "text-to-video",
+    "ai-video",
+    "video-api"
+  ],
+  "homepage": "https://vgenv.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SheeAI/minimax-h3-api-examples.git",
+    "directory": "vgenv-node"
+  },
+  "bugs": {
+    "url": "https://github.com/SheeAI/minimax-h3-api-examples/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
