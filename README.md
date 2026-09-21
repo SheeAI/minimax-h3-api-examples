@@ -86,7 +86,7 @@ Use `frame_images` for a first frame, last frame, or both:
 }
 ```
 
-Use `reference_images` for up to four ordered character, product, scene, or style references:
+Use `reference_images` for up to nine ordered character, product, scene, or style references:
 
 ```json
 {
