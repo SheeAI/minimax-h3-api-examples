@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vgenv"
+version = "0.1.0"
+description = "Official Python client for the vgenv AI video generation API — MiniMax H3 videos, billed per output second."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["vgenv", "minimax-h3", "video-generation", "text-to-video", "ai-video", "video-api"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Topic :: Multimedia :: Video",
+]
+
+[project.urls]
+Homepage = "https://vgenv.com"
+Documentation = "https://vgenv.com/developers/docs"
+Repository = "https://github.com/SheeAI/minimax-h3-api-examples"
+Issues = "https://github.com/SheeAI/minimax-h3-api-examples/issues"
